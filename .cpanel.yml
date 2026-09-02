@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nimh3597/public_html/surat-menyurat
+    - /bin/cp -R * $DEPLOYPATH
